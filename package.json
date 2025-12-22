@@ -1,0 +1,46 @@
+{
+  "name": "create-meow-express",
+  "version": "1.0.0",
+  "description": "🚀 The ultimate CLI to generate production-ready Express apps with TypeScript, Auth, Database, and Docker support.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-meow-express": "./index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "cli",
+    "generator",
+    "typescript",
+    "scaffold",
+    "boilerplate",
+    "create-express-app",
+    "backend",
+    "nodejs",
+    "starter-kit"
+  ],
+  "author": "Dip Pal <dip.pal.513@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dippal513/create-meow-express"
+  },
+  "bugs": {
+    "url": "https://github.com/dippal513/create-meow-express/issues"
+  },
+  "homepage": "https://github.com/dippal513/create-meow-express#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.0"
+  }
+}
