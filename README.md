@@ -45,7 +45,7 @@ Ensure you have **Node.js** installed. You can run the CLI directly using `npx` 
 
 ```bash
 # To run directly if published
-npx meow-cli
+npx create-meow-cli
 
 ```
 
